@@ -1,25 +1,25 @@
 class Envy < Formula
   desc "A secure, deterministic, and frictionless environment variable manager"
   homepage "https://github.com/anguriatech/envy"
-  version "0.3.2"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/anguriatech/envy/releases/download/v0.3.2/envy-aarch64-apple-darwin.tar.xz"
-      sha256 "3835941bb1a647535d46e6f84000c29f5107da250ce16547125f4408f5372ee3"
+      url "https://github.com/anguriatech/envy/releases/download/v0.4.0/envy-aarch64-apple-darwin.tar.xz"
+      sha256 "06bad39b30676af7e6b13e5569a0b17dd70dc442edadd6395d2434e8c443328a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anguriatech/envy/releases/download/v0.3.2/envy-x86_64-apple-darwin.tar.xz"
-      sha256 "d0a39f1c25a5605372872235c35d4d8da62c341869e107167f08e7b95a0fd0a7"
+      url "https://github.com/anguriatech/envy/releases/download/v0.4.0/envy-x86_64-apple-darwin.tar.xz"
+      sha256 "a4fc44d77536d84651c09337d840a2707b710e2f9323c3a9df73ab5395cc67ea"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/anguriatech/envy/releases/download/v0.3.2/envy-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "27fd5d42e529d62c2eed082a887a1e7c145b07fee47ac98ab4a5f0f84614d69f"
+      url "https://github.com/anguriatech/envy/releases/download/v0.4.0/envy-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a1a0104219af9f012eba6895dff06c0428c60ea9fc806d3b18c18b4bb9443ab3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anguriatech/envy/releases/download/v0.3.2/envy-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7f6e07d7ed0f71ca76392d79234d132ce40db1f04ee72fc81c6d9b73495c541c"
+      url "https://github.com/anguriatech/envy/releases/download/v0.4.0/envy-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e60b38b54e9b62ffad412cd9f01cd2e3cdc0b85d63bb84cbf4dccf7c94d97c93"
     end
   end
   license "MIT"
